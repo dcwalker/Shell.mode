@@ -3,13 +3,15 @@
     <recognition>
         <extension>sh</extension>
         <extension>bash</extension>
+        <extension>bash_profile</extension>
         <extension>bashrc</extension>
         <extension>login</extension>
-        <filename>.bash_profile</filename>
-        <filename>.bashrc</filename>
+        <extension>zshrc</extension>
+        <extension>zshenv</extension>
         <filename>configure</filename>
         <regex>\A#! ?/bin/(ba)?sh</regex>
         <regex>\A#! ?/usr/bin/env sh</regex>
         <regex>\A#! ?/usr/(bin/env )?bash</regex>
+        <regex>\A#! ?/usr/(bin/env )?zsh</regex>
     </recognition>
 </settings>

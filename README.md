@@ -1,13 +1,26 @@
-Coda2-bash-mode
+Shell.mode
 ===============
 
-Bash syntax mode for Coda 2.
+Shell syntax mode for Coda 2.
 
-I found that this gave me enough visual separation to start making sense of bash scripts in Coda 2.
+## Installation (non Mac App Store version)
 
-To install bash.mode for Coda 2
-- Open the Finder and select the'Go to Folder' option in the 'Go' menu (or hit command + shift + G)
-- Paste the path '~/Library/Application Support/Coda 2/Modes' into the ext box and hite enter, this will take you to the Coda 2 modes folder
-- Copy or move the bash.mode package into the Coda 2 modes folder
-- Launch or Restart Coda 2
+    cd ~/Library/Application\ Support/Coda\ 2/Modes
+    git clone git@github.com:dcwalker/Shell.mode.git
+    
+## Installation (Mac App Store version)
 
+    cd ~/Library/Containers/com.panic.Coda2/Data/Library/Application\ Support/Coda\ 2/Modes
+    git clone git@github.com:dcwalker/Shell.mode.git
+    
+## Updates
+
+If you want to get the latest updates, you simply run git pull inside the Modes directory
+
+    cd ~/Library/Application\ Support/Coda\ 2/Modes/Shell.mode
+    git pull
+    
+Or the following if you are running the sandboxed MAS version.
+
+    cd ~/Library/Containers/com.panic.Coda2/Data/Library/Application\ Support/Coda\ 2/Modes/Shell.mode
+    git pull
